@@ -8,7 +8,7 @@ The repository consists of a set of nested templates that deploy the following:
 	• Two interconnecting microservices deployed as ECS services (website-service and product-service).
 	• An Application Load Balancer (ALB) to the public subnets to handle inbound traffic.
 	• ALB path-based routes for each ECS service to route the inbound traffic to the correct service.
-    . Centralized container logging with Amazon CloudWatch Logs.
+        . Centralized container logging with Amazon CloudWatch Logs.
 
 
 Modify the templates.
@@ -17,9 +17,7 @@ Either create a new CloudFormation stack by deploying the master.yaml template, 
 
 This app has 2 containers on each ec2 instance. The front end public website talks to a back end api on the same instance.
 
-http://dg-red-cloudformation-427689680.us-east-1.elb.amazonaws.com/
+Dockerize an image push to the AWS ECR repository
+Update the ContainerName and Image parameters to point to the container image instead of the currrent container.
 
-If we can dockerize an image I can push to the AWS ECR repository
-Update the ContainerName and Image parameters to point to the  container image instead of the currrent container.
-
-We have a automated clustred microservices.
+You have a automated clustred microservices.
