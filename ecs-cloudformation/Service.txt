@@ -1,0 +1,4 @@
+product
+https://s3-external-1.amazonaws.com/cf-templates-9k6zf61skhp0-us-east-1/2017110upy-template1gop2aarvxo/service.yaml
+website
+https://s3-external-1.amazonaws.com/cf-templates-9k6zf61skhp0-us-east-1/201711025i-template1lt3idahvw0f/service.yaml
